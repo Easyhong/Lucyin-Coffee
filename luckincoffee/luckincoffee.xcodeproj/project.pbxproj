@@ -11,6 +11,7 @@
 		49717A012457199C00DA5FB8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49717A002457199C00DA5FB8 /* MainViewController.swift */; };
 		49717A062457199D00DA5FB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49717A052457199D00DA5FB8 /* Assets.xcassets */; };
 		49717A092457199D00DA5FB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49717A072457199D00DA5FB8 /* LaunchScreen.storyboard */; };
+		49717A112457250100DA5FB8 /* MainHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49717A102457250100DA5FB8 /* MainHeadView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		49717A052457199D00DA5FB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49717A082457199D00DA5FB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49717A0A2457199D00DA5FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49717A102457250100DA5FB8 /* MainHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHeadView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,13 +54,38 @@
 		497179FB2457199C00DA5FB8 /* luckincoffee */ = {
 			isa = PBXGroup;
 			children = (
+				49717A14245725A700DA5FB8 /* LuckinUIKit */,
+				49717A122457250E00DA5FB8 /* Main */,
 				497179FC2457199C00DA5FB8 /* AppDelegate.swift */,
-				49717A002457199C00DA5FB8 /* MainViewController.swift */,
 				49717A052457199D00DA5FB8 /* Assets.xcassets */,
 				49717A072457199D00DA5FB8 /* LaunchScreen.storyboard */,
 				49717A0A2457199D00DA5FB8 /* Info.plist */,
 			);
 			path = luckincoffee;
+			sourceTree = "<group>";
+		};
+		49717A122457250E00DA5FB8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				49717A132457252100DA5FB8 /* view */,
+				49717A002457199C00DA5FB8 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		49717A132457252100DA5FB8 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				49717A102457250100DA5FB8 /* MainHeadView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		49717A14245725A700DA5FB8 /* LuckinUIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LuckinUIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49717A012457199C00DA5FB8 /* MainViewController.swift in Sources */,
+				49717A112457250100DA5FB8 /* MainHeadView.swift in Sources */,
 				497179FD2457199C00DA5FB8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
