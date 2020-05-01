@@ -1,2 +1,2 @@
-# Lucyin-Coffee
-Lucy in Coffee Swift
+# LuckinCoffee
+Luck in Coffee Swift
