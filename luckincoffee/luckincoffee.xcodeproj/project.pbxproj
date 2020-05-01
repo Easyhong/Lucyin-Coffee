@@ -10,11 +10,24 @@
 		497179FD2457199C00DA5FB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497179FC2457199C00DA5FB8 /* AppDelegate.swift */; };
 		49717A062457199D00DA5FB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49717A052457199D00DA5FB8 /* Assets.xcassets */; };
 		49717A092457199D00DA5FB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49717A072457199D00DA5FB8 /* LaunchScreen.storyboard */; };
-		49717A112457250100DA5FB8 /* MainHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49717A102457250100DA5FB8 /* MainHeadView.swift */; };
-		49717A16245727C800DA5FB8 /* MainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49717A15245727C800DA5FB8 /* MainTableView.swift */; };
+		49717A112457250100DA5FB8 /* MainHeadScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49717A102457250100DA5FB8 /* MainHeadScrollerView.swift */; };
 		49717A192457286100DA5FB8 /* Slideshow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49717A182457286100DA5FB8 /* Slideshow.swift */; };
 		49717A1E2459BB8C00DA5FB8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49717A1C2459BB8C00DA5FB8 /* MainViewController.swift */; };
 		49717A1F2459BB8C00DA5FB8 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49717A1D2459BB8C00DA5FB8 /* MainViewController.xib */; };
+		49717A21245B114500DA5FB8 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49717A20245B114500DA5FB8 /* UIView+Extension.swift */; };
+		49717A23245B128600DA5FB8 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49717A22245B128600DA5FB8 /* Config.swift */; };
+		49717A25245B12C500DA5FB8 /* GradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49717A24245B12C500DA5FB8 /* GradientColor.swift */; };
+		49717A27245B136D00DA5FB8 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49717A26245B136D00DA5FB8 /* UIColor+Extension.swift */; };
+		49717A29245B15E700DA5FB8 /* CAlayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49717A28245B15E700DA5FB8 /* CAlayer+Extension.swift */; };
+		49717A2B245C474A00DA5FB8 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49717A2A245C474A00DA5FB8 /* ThemeView.swift */; };
+		49717A2D245C479700DA5FB8 /* ThemeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49717A2C245C479700DA5FB8 /* ThemeView.xib */; };
+		49717A2F245C483100DA5FB8 /* HeaderMaskLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49717A2E245C483100DA5FB8 /* HeaderMaskLayer.swift */; };
+		49717A31245C6AC900DA5FB8 /* RecommendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49717A30245C6AC900DA5FB8 /* RecommendView.swift */; };
+		49717A33245C6C8A00DA5FB8 /* RecommendView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49717A32245C6C8A00DA5FB8 /* RecommendView.xib */; };
+		49717A35245C719100DA5FB8 /* FreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49717A34245C719100DA5FB8 /* FreshView.swift */; };
+		49717A37245C71A000DA5FB8 /* FreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49717A36245C71A000DA5FB8 /* FreshView.xib */; };
+		49717A39245C723E00DA5FB8 /* HotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49717A38245C723E00DA5FB8 /* HotView.swift */; };
+		49717A3B245C724B00DA5FB8 /* HotView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49717A3A245C724B00DA5FB8 /* HotView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,11 +36,24 @@
 		49717A052457199D00DA5FB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49717A082457199D00DA5FB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49717A0A2457199D00DA5FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49717A102457250100DA5FB8 /* MainHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHeadView.swift; sourceTree = "<group>"; };
-		49717A15245727C800DA5FB8 /* MainTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableView.swift; sourceTree = "<group>"; };
+		49717A102457250100DA5FB8 /* MainHeadScrollerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHeadScrollerView.swift; sourceTree = "<group>"; };
 		49717A182457286100DA5FB8 /* Slideshow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slideshow.swift; sourceTree = "<group>"; };
 		49717A1C2459BB8C00DA5FB8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		49717A1D2459BB8C00DA5FB8 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		49717A20245B114500DA5FB8 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		49717A22245B128600DA5FB8 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		49717A24245B12C500DA5FB8 /* GradientColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientColor.swift; sourceTree = "<group>"; };
+		49717A26245B136D00DA5FB8 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		49717A28245B15E700DA5FB8 /* CAlayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAlayer+Extension.swift"; sourceTree = "<group>"; };
+		49717A2A245C474A00DA5FB8 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		49717A2C245C479700DA5FB8 /* ThemeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThemeView.xib; sourceTree = "<group>"; };
+		49717A2E245C483100DA5FB8 /* HeaderMaskLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderMaskLayer.swift; sourceTree = "<group>"; };
+		49717A30245C6AC900DA5FB8 /* RecommendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendView.swift; sourceTree = "<group>"; };
+		49717A32245C6C8A00DA5FB8 /* RecommendView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommendView.xib; sourceTree = "<group>"; };
+		49717A34245C719100DA5FB8 /* FreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshView.swift; sourceTree = "<group>"; };
+		49717A36245C71A000DA5FB8 /* FreshView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FreshView.xib; sourceTree = "<group>"; };
+		49717A38245C723E00DA5FB8 /* HotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotView.swift; sourceTree = "<group>"; };
+		49717A3A245C724B00DA5FB8 /* HotView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,10 +99,10 @@
 		49717A122457250E00DA5FB8 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				49717A172457280C00DA5FB8 /* Model */,
-				49717A132457252100DA5FB8 /* view */,
 				49717A1C2459BB8C00DA5FB8 /* MainViewController.swift */,
 				49717A1D2459BB8C00DA5FB8 /* MainViewController.xib */,
+				49717A172457280C00DA5FB8 /* Model */,
+				49717A132457252100DA5FB8 /* view */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -84,8 +110,16 @@
 		49717A132457252100DA5FB8 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				49717A102457250100DA5FB8 /* MainHeadView.swift */,
-				49717A15245727C800DA5FB8 /* MainTableView.swift */,
+				49717A3C245C828C00DA5FB8 /* layer */,
+				49717A102457250100DA5FB8 /* MainHeadScrollerView.swift */,
+				49717A2A245C474A00DA5FB8 /* ThemeView.swift */,
+				49717A2C245C479700DA5FB8 /* ThemeView.xib */,
+				49717A30245C6AC900DA5FB8 /* RecommendView.swift */,
+				49717A32245C6C8A00DA5FB8 /* RecommendView.xib */,
+				49717A34245C719100DA5FB8 /* FreshView.swift */,
+				49717A36245C71A000DA5FB8 /* FreshView.xib */,
+				49717A38245C723E00DA5FB8 /* HotView.swift */,
+				49717A3A245C724B00DA5FB8 /* HotView.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -93,6 +127,11 @@
 		49717A14245725A700DA5FB8 /* LuckinUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				49717A20245B114500DA5FB8 /* UIView+Extension.swift */,
+				49717A22245B128600DA5FB8 /* Config.swift */,
+				49717A24245B12C500DA5FB8 /* GradientColor.swift */,
+				49717A26245B136D00DA5FB8 /* UIColor+Extension.swift */,
+				49717A28245B15E700DA5FB8 /* CAlayer+Extension.swift */,
 			);
 			path = LuckinUIKit;
 			sourceTree = "<group>";
@@ -103,6 +142,14 @@
 				49717A182457286100DA5FB8 /* Slideshow.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		49717A3C245C828C00DA5FB8 /* layer */ = {
+			isa = PBXGroup;
+			children = (
+				49717A2E245C483100DA5FB8 /* HeaderMaskLayer.swift */,
+			);
+			path = layer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,9 +210,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49717A2D245C479700DA5FB8 /* ThemeView.xib in Resources */,
 				49717A092457199D00DA5FB8 /* LaunchScreen.storyboard in Resources */,
+				49717A3B245C724B00DA5FB8 /* HotView.xib in Resources */,
 				49717A1F2459BB8C00DA5FB8 /* MainViewController.xib in Resources */,
 				49717A062457199D00DA5FB8 /* Assets.xcassets in Resources */,
+				49717A33245C6C8A00DA5FB8 /* RecommendView.xib in Resources */,
+				49717A37245C71A000DA5FB8 /* FreshView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,11 +227,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49717A112457250100DA5FB8 /* MainHeadView.swift in Sources */,
-				49717A16245727C800DA5FB8 /* MainTableView.swift in Sources */,
+				49717A21245B114500DA5FB8 /* UIView+Extension.swift in Sources */,
+				49717A2B245C474A00DA5FB8 /* ThemeView.swift in Sources */,
+				49717A112457250100DA5FB8 /* MainHeadScrollerView.swift in Sources */,
+				49717A27245B136D00DA5FB8 /* UIColor+Extension.swift in Sources */,
+				49717A39245C723E00DA5FB8 /* HotView.swift in Sources */,
+				49717A25245B12C500DA5FB8 /* GradientColor.swift in Sources */,
+				49717A2F245C483100DA5FB8 /* HeaderMaskLayer.swift in Sources */,
+				49717A23245B128600DA5FB8 /* Config.swift in Sources */,
 				49717A192457286100DA5FB8 /* Slideshow.swift in Sources */,
+				49717A29245B15E700DA5FB8 /* CAlayer+Extension.swift in Sources */,
 				497179FD2457199C00DA5FB8 /* AppDelegate.swift in Sources */,
+				49717A35245C719100DA5FB8 /* FreshView.swift in Sources */,
 				49717A1E2459BB8C00DA5FB8 /* MainViewController.swift in Sources */,
+				49717A31245C6AC900DA5FB8 /* RecommendView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +308,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -302,7 +362,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

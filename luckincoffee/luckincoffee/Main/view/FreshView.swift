@@ -1,14 +1,14 @@
 //
-//  MainTableView.swift
+//  FreshView.swift
 //  luckincoffee
 //
-//  Created by taozhang on 2020/4/27.
+//  Created by taozhang on 2020/5/1.
 //  Copyright © 2020 Easyhong. All rights reserved.
 //
 
 import UIKit
 
-class MainTableView: UITableView {
+class FreshView: UIView {
 
     /*
     // Only override draw() if you perform custom drawing.
@@ -17,12 +17,5 @@ class MainTableView: UITableView {
         // Drawing code
     }
     */
-    
-    
-    
-    
 
 }
-
-
-

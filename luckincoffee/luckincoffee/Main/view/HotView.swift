@@ -1,14 +1,14 @@
 //
-//  MainHeadView.swift
+//  HotView.swift
 //  luckincoffee
 //
-//  Created by taozhang on 2020/4/27.
+//  Created by taozhang on 2020/5/1.
 //  Copyright © 2020 Easyhong. All rights reserved.
 //
 
 import UIKit
 
-class MainHeadView: UIView {
+class HotView: UIView {
 
     /*
     // Only override draw() if you perform custom drawing.
