@@ -9,13 +9,17 @@
 import UIKit
 
 class HotView: UIView {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    
+    @IBOutlet weak var collectionView: UICollectionView!
+    
+    override class func awakeFromNib() {
+        super.awakeFromNib()
+       // hotCollectionView.register(with: HotCollectionViewCell.self)
     }
-    */
 
+}
+
+extension HotView {
+    
+    
 }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		496182C9245DB361003F9183 /* HotCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496182C7245DB361003F9183 /* HotCollectionViewCell.swift */; };
+		496182CA245DB361003F9183 /* HotCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 496182C8245DB361003F9183 /* HotCollectionViewCell.xib */; };
+		496182CC245DB923003F9183 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496182CB245DB923003F9183 /* UITableView+Extension.swift */; };
 		497179FD2457199C00DA5FB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497179FC2457199C00DA5FB8 /* AppDelegate.swift */; };
 		49717A062457199D00DA5FB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49717A052457199D00DA5FB8 /* Assets.xcassets */; };
 		49717A092457199D00DA5FB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49717A072457199D00DA5FB8 /* LaunchScreen.storyboard */; };
@@ -31,6 +34,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		496182C7245DB361003F9183 /* HotCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotCollectionViewCell.swift; sourceTree = "<group>"; };
+		496182C8245DB361003F9183 /* HotCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotCollectionViewCell.xib; sourceTree = "<group>"; };
+		496182CB245DB923003F9183 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		497179F92457199C00DA5FB8 /* luckincoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = luckincoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		497179FC2457199C00DA5FB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49717A052457199D00DA5FB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -120,6 +126,8 @@
 				49717A36245C71A000DA5FB8 /* FreshView.xib */,
 				49717A38245C723E00DA5FB8 /* HotView.swift */,
 				49717A3A245C724B00DA5FB8 /* HotView.xib */,
+				496182C7245DB361003F9183 /* HotCollectionViewCell.swift */,
+				496182C8245DB361003F9183 /* HotCollectionViewCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -132,6 +140,7 @@
 				49717A24245B12C500DA5FB8 /* GradientColor.swift */,
 				49717A26245B136D00DA5FB8 /* UIColor+Extension.swift */,
 				49717A28245B15E700DA5FB8 /* CAlayer+Extension.swift */,
+				496182CB245DB923003F9183 /* UITableView+Extension.swift */,
 			);
 			path = LuckinUIKit;
 			sourceTree = "<group>";
@@ -214,6 +223,7 @@
 				49717A092457199D00DA5FB8 /* LaunchScreen.storyboard in Resources */,
 				49717A3B245C724B00DA5FB8 /* HotView.xib in Resources */,
 				49717A1F2459BB8C00DA5FB8 /* MainViewController.xib in Resources */,
+				496182CA245DB361003F9183 /* HotCollectionViewCell.xib in Resources */,
 				49717A062457199D00DA5FB8 /* Assets.xcassets in Resources */,
 				49717A33245C6C8A00DA5FB8 /* RecommendView.xib in Resources */,
 				49717A37245C71A000DA5FB8 /* FreshView.xib in Resources */,
@@ -233,6 +243,7 @@
 				49717A27245B136D00DA5FB8 /* UIColor+Extension.swift in Sources */,
 				49717A39245C723E00DA5FB8 /* HotView.swift in Sources */,
 				49717A25245B12C500DA5FB8 /* GradientColor.swift in Sources */,
+				496182C9245DB361003F9183 /* HotCollectionViewCell.swift in Sources */,
 				49717A2F245C483100DA5FB8 /* HeaderMaskLayer.swift in Sources */,
 				49717A23245B128600DA5FB8 /* Config.swift in Sources */,
 				49717A192457286100DA5FB8 /* Slideshow.swift in Sources */,
@@ -241,6 +252,7 @@
 				49717A35245C719100DA5FB8 /* FreshView.swift in Sources */,
 				49717A1E2459BB8C00DA5FB8 /* MainViewController.swift in Sources */,
 				49717A31245C6AC900DA5FB8 /* RecommendView.swift in Sources */,
+				496182CC245DB923003F9183 /* UITableView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

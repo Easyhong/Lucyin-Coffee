@@ -46,6 +46,7 @@ class HeaderMaskLayer: CALayer {
         layer4.frame = CGRect(x: screenWidth - 170, y: -40, width: 90, height: 90)
         layer4.backgroundColor = UIColor(red: 78 / 255.0, green: 77 / 255.0, blue: 152 / 255.0, alpha: 1.0).cgColor
         layer4.masksToBounds = false
+        layer4.contentsScale = UIScreen.main.scale
         layer4.zPosition = -999
         self.addSublayer(layer4)
         layer4.drawArc(radius: 45)
